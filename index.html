@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Carrosel</title>
+</head>
+<body>
+    <h1 class="title">Slides</h1>
+    <duv class="container">
+        <span class="order">1</span>
+        <img src="assets/images/milky-way-8149815_1280.webp" alt="céu estrelado">
+        <img src="assets/images/mountain-landscape-8177511_1280.jpg" alt="montanhas">
+        <img src="assets/images/sunset-8180443_1280.webp" alt="pôr-do-sol">
+        <img src="assets/images/lake-8070741_1280.webp" alt="">
+        <img src="assets/images/mountains-1587287_1280.jpg" alt="">
+        <img src="assets/images/alberta-2297204_1280.jpg" alt="">
+        
+        <section class="inputsArea">
+            <input type="radio" name="Slides" id="1" onclick="inputChecked(0)" title="Imagem 1" checked>
+            <input type="radio" name="Slides" id="2" onclick="inputChecked(1)" title="Imagem 2">
+            <input type="radio" name="Slides" id="3" onclick="inputChecked(2)" title="Imagem 3">
+            <input type="radio" name="Slides" id="3" onclick="inputChecked(3)" title="Imagem 4">
+            <input type="radio" name="Slides" id="4" onclick="inputChecked(4)" title="Imagem 5">
+            <input type="radio" name="Slides" id="5" onclick="inputChecked(5)" title="Imagem 6">
+        </section>
+        
+        <button id="prev" onclick="goPrev()" title="Anterior">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button id="next" onclick="goNext()" title="Próximo">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </duv>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
